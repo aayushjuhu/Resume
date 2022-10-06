@@ -13,14 +13,68 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="assets/css/style.css" rel="stylesheet">
-</head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Passions Conflict">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
+  <style>
+    #abcd{
+        width: 0ch;
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 2px solid white;
+        animation: text 4s steps(24) forwards;
+        
+    }
+    @keyframes text{
+      0%{
+        width: 0ch;
+      }
+      100%{
+        width: 17ch;
+      }
+    }
+    #abcd1{
+        width: 0ch;
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 2px solid white;
+        animation: text1 4s steps(22) forwards;
+        
+    }
+    @keyframes text1{
+      0%{
+        width: 0ch;
+      }
+      100%{
+        width: 21ch;
+      }
+    }
+  </style>
+
 <body>
+  <div class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand pull-left" href="#" style="font-family:Passions Conflict; font-size:48px; color:white"><b>Aayush Juhukar</b></a>
+      </div>
+      <ul class="nav navbar-nav-inverse">
+        <li style="font-size:20px;"><a href="#about">About Me</a></li>
+        <li style="font-size:20px;"><a href="#skills">Skills</a></li>
+        <li style="font-size:20px;"><a href="#resume">Professional Career</a></li>
+        <li style="font-size:20px;"><a href="#projects">Projects</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--<div><h1 style="font-family:Passions Conflict; font-size:80px">Aayush Juhukar</h1></div>-->
+  
   <section id="hero" class="d-flex flex-column align-items-center justify-content-center">
-    <h1>Hi, I'm Aayush Juhukar!</h1>
-    <h2>I am an Engineering Student</h2>
+    <h1 id="abcd" style="font-family:Mukta;">Hi, I'm Aayush Juhukar!</h1>
+    <h2 id="abcd1" style="font-family:Mukta;">I am an Engineering Student</h2>
     <br>
       <div class="col-sm-3 text-center">
         <a href="https://github.com/aayushjuhu"><button class="btn btn-primary btn pull-right" style="background-color:black;"><i class="fa fa-github" style="font-size:60px; color:white"></a></i></button>
@@ -72,7 +126,7 @@
          <div class="row">
           <div class="col-lg-6">
             <h3 class="resume-title">Objective</h3>
-            <div class="resume-item pb-0">
+            <div id="objective" class="resume-item pb-0">
               <p><em>To serve a progressive organization which allows me to use my skills, putting my critical and analytical thinking to test thereby helping the professional growth of the organization.</em></p>
               <p>
               <ul>
@@ -130,7 +184,7 @@
           </div>
           <section id="skills" class="skills section-bg">
             <div class="container">
-              <div class="section-title">
+              <div id="projects" class="section-title">
                 <h2>Projects</h2>
               </div>
               <br>
@@ -159,8 +213,14 @@
                 <p style="font-size: 28px;font-family:Oswald;"><em>Technology Used:Python</em></p>
               </div>
             </div>
-      </div>
+            <div class="col-sm-5  text-center"></div>
+              <a href="assets/img/Aayush Juhukar-Resume (IBM).pdf"><button class="btn btn-primary btn pull-left"><i class="fa fa-download" style="font-size: 28px;"> Download Resume</i></button></a>
+              <br><br><br><br>
+              <h6 class="text-center" style="font-family:Roboto;font-size:20px ;">Created by Aayush Juhukar</h6>
+            </div>
+          </div>
     </section>
+
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -169,8 +229,5 @@
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/js/main.js"></script>
-  <div class="col-sm-7 text-center">
-    <a href="assets/img/Aayush Juhukar-Resume (IBM).pdf"><button class="btn btn-primary btn pull-right"><i class="fa fa-download" style="font-size: 28px;"> Download Resume</i></button></a>
-  </div>
 </body>
 </html>
