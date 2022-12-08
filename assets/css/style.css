@@ -113,7 +113,7 @@ h6 {
   height: 75vh;
   background: url("../img/final.gif") top center;
   background-size:100%;
-  
+  background-repeat: no-repeat;
   padding:  12px;
 
   
