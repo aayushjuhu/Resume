@@ -192,16 +192,10 @@ h6 {
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
-}
-
-.section-bg {
-  
-  /* background: linear-gradient(#d9f8f8 40%, rgb(162, 241, 255) 100%); */
-  /* background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_960_720.jpg"); */
   background-color: white;
-  
-
 }
+
+
 
 .section-title {
   padding-bottom: 30px;
