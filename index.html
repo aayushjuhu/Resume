@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satisfy">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alexandria">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Sans">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -44,7 +45,7 @@
   </style>
 
 <body>
-  <div class="navbar navbar-inverse" data-aos="zoom-out" data-aos-duration="800">
+  <nav class="navbar navbar-inverse fixed-top"  data-aos="zoom-out" data-aos-duration="800">
     <div class="container-fluid">
       <div class="navbar-header">
         <a class="navbar-brand pull-left" href="#" style="font-family:Satisfy; font-size:40px; color:white"><b>Aayush Juhukar</b></a>
@@ -57,7 +58,8 @@
         <li style="font-size:20px;"><a href="#Extra-Curricular">Extra-Curricular Activities</a></li>
       </ul>
     </div>
-  </div>
+  </nav>
+  
   
   
   <section id="hero" class="d-flex flex-column align-items-center justify-content-center">
@@ -116,6 +118,8 @@
               <li class="list-group-item">Python</li>
               <li class="list-group-item">PostgreSQL</li>
               <li class="list-group-item">MySQL</li>
+              <li class="list-group-item">PHP</li>
+              <li class="list-group-item">MongodB</li>
             </div>
           </div>
       </div>
@@ -164,28 +168,110 @@
           </div>
         </div>
           <div class="col-lg-6">
-            <h3 class="resume-title" data-aos="fade-right" data-aos-duration="1200">Position of Responsibilty</h3>
+            <h3 class="resume-title" data-aos="fade-right" data-aos-duration="1200">Experiences</h3>
             <div class="resume-item" data-aos="fade-up" data-aos-duration="1200">
-              <h4>Training and Placement Coordinator(TPC)</h4>
-              <h5>September, 2022 - Present</h5>
-              <p><em>Fr.Conceicao Rodrigues College of Engineering</em></p>
+              <h4>Web Development Intern</h4>
+              <h5>November, 2022 - December, 2022 </h5>
+              <p><em>The Sparks Foundation</em></p>
             </div>
             <div class="resume-item" data-aos="fade-up" data-aos-duration="1200">
               <h4>Student Mentor for Second Year Students</h4>
               <h5>August, 2022 - Present</h5>
               <p><em>Fr.Conceicao Rodrigues College of Engineering</em></p>
             </div>
+            <div class="resume-item" data-aos="fade-up" data-aos-duration="1200">
+              <h4>Training and Placement Coordinator(TPC)</h4>
+              <h5>September, 2022 - Present</h5>
+              <p><em>Fr.Conceicao Rodrigues College of Engineering</em></p>
+            </div>
+            
             <br>
             
           </div>
           </div>
-          <section id="skills" class="skills section-bg" >
-            <div class="container-fluid">
-              <div id="projects" class="section-title" data-aos="fade-right" data-aos-duration="1400">
-                <h2>Projects</h2>
+          <br>
+          <div class="container-fluid">
+            <div id="projects" class="section-title" data-aos="fade-right" data-aos-duration="1200">
+              <h2>Projects</h2>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="card" style="width: 28rem;border: 2px solid rgb(56, 144, 216);border-radius: 4px;" data-aos="zoom-in-up" id="c1"data-aos-duration="1400">
+                  <img class="card-img-top" src="assets/img/logocopy-removebg-preview.png" alt="quickcertify">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>QuickCertify</strong></h5>
+                    <p class="card-text">A website which generates participation and acheivement e-certificates. </p>
+                    <div class="text-center">
+                      <a href="https://aayushjuhu.github.io/QuickCertify/"><button class="btn btn-primary" style="background-color:black;"><i class="fa fa-link" style="font-size:40px; color:white; "></a></i></button>
+                    <a href="https://github.com/aayushjuhu/QuickCertify"><button class="btn btn-primary" style="background-color:black;"><i class="fa fa-github" style="font-size:40px; color:white; "></a></i></button>
+                    </div>
+                  </div>
+                </div>
+                <br><br>
               </div>
+              
+              <div class="col-sm-3">
+                <div class="card" style="width: 28rem;border: 2px solid rgb(56, 144, 216);border-radius: 4px;" data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1400" id="c1">
+                  <img class="card-img-top" src="assets/img/anuvaadlogo - Copy.png" alt="Anuvaad">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>Anuvaad</strong></h5>
+                    <p class="card-text">A translation app which has voice as well text input ability with TTS functionality.</p>
+                    <div class="text-center">
+                    <a href="https://github.com/aayushjuhu/Anuvaad"><button class="btn btn-primary" style="background-color:black;"><i class="fa fa-github" style="font-size:40px; color:white; "></a></i></button>
+                    </div>
+                  </div>
+                </div>
+                <br><br>
+              </div>
+              <br><br>
+              <div class="col-sm-3">
+                <div class="card" id="c1" style="width: 28rem;border: 2px solid rgb(56, 144, 216);border-radius: 4px;" data-aos="zoom-in-up" data-aos-duration="1400" data-aos-delay="200">
+                  <img class="card-img-top" src="assets/img/amigo.jpg" alt="amigo">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>Amigo</strong></h5>
+                    <p class="card-text">Amigo is a virtual voice assistant which can search the internet for information and also perform various functions.</p>
+                    <div class="text-center">
+                    <a href="https://github.com/aayushjuhu/Amigo"><button class="btn btn-primary" style="background-color:black;"><i class="fa fa-github" style="font-size:40px; color:white; "></a></i></button>
+                    </div>
+                  </div>
+                </div>
+                <br><br>
+              </div>
+              <div class="col-sm-3">
+                <div class="card" id="c1" style="width: 28rem;border: 2px solid rgb(56, 144, 216);border-radius: 4px;" data-aos="zoom-in-up" data-aos-duration="1400" data-aos-delay="300">
+                  <img class="card-img-top" src="assets/img/Picture1 - Copy.png" alt="Cryptify">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>Cryptify</strong></h5>
+                    <p class="card-text">An application which demonstrates Image steganography.</p>
+                    <div class="text-center">
+                    <a href="https://github.com/aayushjuhu/Cryptify"><button class="btn btn-primary" style="background-color:black;"><i class="fa fa-github" style="font-size:40px; color:white; "></a></i></button>
+                    </div>
+                  </div>
+                </div>
+                <br><br>
+              </div>
+              
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="card" id="c1" style="width: 28rem;border: 2px solid rgb(56, 144, 216);border-radius: 4px;" data-aos="zoom-in-up" data-aos-duration="1400" data-aos-delay="400">
+                  <img class="card-img-top" src="assets/img/mp.jpg" alt="MP3-player">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>MP3 Music Player</strong></h5>
+                    <p class="card-text">This music player can play audio files with play,pause,next and prev operations.</p>
+                    <div class="text-center">
+                    <a href="https://github.com/aayushjuhu/MP3-player"><button class="btn btn-primary" style="background-color:black;" ><i class="fa fa-github" style="font-size:40px; color:white; "></a></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br><br>
+            </div>
+            
+          </div>
+            
               <br>
-              <div class="container-fluid text-center" data-aos="fade-up" data-aos-duration="1200">
+              <!--<div class="container-fluid text-center" data-aos="fade-up" data-aos-duration="1200">
                 <img src="/assets/img/pbg.jpg" alt="Sociogram" class="img-fluid img-thumbnail rounded-pill mx-auto d-block" style="border: 2px solid #6b96be;">
 
                 <br>
@@ -226,7 +312,7 @@
                 <a href="https://github.com/aayushjuhu/Cryptify"><button class="btn btn-primary btn" style="background-color:black;" data-aos="fade-up"><i class="fa fa-github" style="font-size:60px; color:white"></a></i></button>
 
               </div>
-            </div>
+            </div> -->
            
             <section id="skills" class="skills section-bg">
               <div class="container-fluid">
@@ -241,9 +327,10 @@
                       
                       <div class="col-sm-6 pull-right">
                         <img src="assets/img/Aayush Juhukar - Synergy 2022 Hackathon Participation.jpg" class="img-fluid "  data-aos="flip-left" data-aos-duration="1400" data-aos-delay="100">
+                        <br><br>
                       </div>
                     </div>
-                    <br><br>
+                    
                     <div class="row">
                       <div class="col-sm-6 pull-left">
                         <img src="assets/img/Team 12_Page_1.jpg" class="img-fluid " data-aos="flip-left" data-aos-duration="1400" data-aos-delay="200">
@@ -258,11 +345,11 @@
                 </div>
               </div>
             <div class="text-center">
-              <a href="assets/img/Aayush Juhukar-Resume (IBM).pdf" download><button class="btn btn-primary pull-left" data-aos="zoom-in" data-aos-delay="200"><i class="fa fa-download" style="font-size: 28px;"> Download Resume</i></button></a>
+              <a href="assets/img/Aayush Juhukar-Resume (IBM).pdf" download><button class="btn btn-primary text-center" data-aos="zoom-in" data-aos-delay="200"><i class="fa fa-download" style="font-size: 28px;"> Download Resume</i></button></a>
             </div>
           </div>
     </section>
-    <h6 class="text-center" style="font-family:Roboto;font-size:20px;">Created by Aayush Juhukar</h6>
+    <footer class="text-center" style="font-family:Oswald;font-size:20px;">Created by Aayush Juhukar</footer>
 
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
