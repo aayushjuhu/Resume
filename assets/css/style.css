@@ -4,7 +4,6 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -198,7 +197,8 @@ section {
 .section-bg {
   
   /* background: linear-gradient(#d9f8f8 40%, rgb(162, 241, 255) 100%); */
-  background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_960_720.jpg");
+  /* background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_960_720.jpg"); */
+  background-color: white;
   
 
 }
@@ -229,6 +229,15 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+}
+#c1{
+  transition: transform .2s;  
+}
+#c1:hover{
+  transform: scale(1.1);
+}
+.card-text{
+  font-family: Noto Sans;
 }
 
 
