@@ -177,7 +177,7 @@ h6 {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
-    color: rgb(58, 243, 203);
+    color: #fbc603;
     
   }
 
@@ -225,7 +225,7 @@ h6 {
 /* # Sections */
 
 section {
-  padding: 60px 0;
+  padding: 20px 0;
 }
 
 .section-bg {
