@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -7,157 +8,184 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
   <link href="assets/img/image-removebg-preview (6).png" rel="icon">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i&subset=cyrillic" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i&subset=cyrillic"
+    rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="assets/css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satisfy">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alexandria">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Sans">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  
   <style>
-    #abcd{
-        width: 0ch;
-        overflow: hidden;
-        white-space: nowrap;
-        border-right: 2px solid black;
-        color: black;
-        animation: text 4s steps(24) forwards;       
-    } 
-     @keyframes text{
-      0%{
+    #abcd {
+      width: 0ch;
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 2px solid black;
+      color: black;
+      animation: text 4s steps(24) forwards;
+    }
+
+    @keyframes text {
+      0% {
         width: 0ch;
       }
-      100%{
+
+      100% {
         width: 17ch;
       }
     }
-    
   </style>
 
-<body>
-  <nav class="navbar navbar-inverse fixed-top"  data-aos="zoom-out" data-aos-duration="800">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand pull-left" href="#" style="font-family:Satisfy; font-size:40px; color:white"><b>Aayush Juhukar</b></a>
-      </div>
-      <ul class="nav navbar-inverse">
-        <li style="font-size:20px;"><a href="#about">About Me</a></li>
-        <li style="font-size:20px;"><a href="#skills">Skills</a></li>
-        <li style="font-size:20px;"><a href="#resume">Professional Career</a></li>
-        <li style="font-size:20px;"><a href="#projects">Projects</a></li>
-        <li style="font-size:20px;"><a href="#Extra-Curricular">Extra-Curricular Activities</a></li>
-      </ul>
+  
+
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <a href="#hero"><button class="back-to-top"><i class="bi bi-arrow-up"></i></button></a>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html" style="font-family: Oswald;font-size: 200%;">AJ</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto" style="font-family: Oswald;">
+        <li class="nav-item">
+          <a class="nav-link" href="#hero">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#resume">Professional Career</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Extra-Curricular">Extra-Curricular Activities</a>
+        </li>
     </div>
   </nav>
-  
-  
-  
+
   <section id="hero" class="d-flex flex-column align-items-center justify-content-center">
-    <h1 id="abcd" style="font-family:Alexandria; " >Hi !, I'm Aayush Juhukar</h1>
-    <h1 style="font-family:Alexandria;"><span class="mul"><b></b></span></h1>
+    <h1 id="abcd" style="font-family:Alexandria; ">Hi !, I'm Aayush Juhukar</h1>
+    <h1 style="font-family:Alexandria;"><span id="spn" class="mul"><b></b></span></h1>
     <script>
-      var typing=new Typed(".mul",{
-        strings : ["Engineering Student","Aspiring Web Developer","Aspiring Software Developer","Love to Creatively Develop"],
+      var typing = new Typed(".mul", {
+        strings: ["Engineering Student", "Aspiring Web Developer", "Aspiring Software Developer", "Love to Creatively Develop"],
         typeSpeed: 100,
         loop: true,
         backSpeed: 80,
         startDelay: 100,
         backDelay: 1000,
-    });
-      
+      });
+
     </script>
     <br>
-      <div class="col-sm-3 text-center">
-        <a href="https://github.com/aayushjuhu"><button class="btn btn-primary pull-right" style="background-color:black;" data-aos="flip-left" data-aos-duration="1200" data-aos-delay="600"><i class="fa fa-github" style="font-size:60px; color:white"></a></i></button>
-        <a href="mailto:aayushjuhukar02@gmail.com"><button class="btn btn-primary pull-left" style="background-color:black" data-aos="flip-left" data-aos-duration="1200" ><i class="fa fa-google" style="font-size:60px;color:white"></a></i></button>
-        <a href="https://www.linkedin.com/in/aayush-juhukar-9294b222a/"><button class="btn btn-primary default" style="background-color:black" data-aos="flip-left" data-aos-duration="1200" data-aos-delay="400"><i class="fa fa-linkedin" style="font-size:60px;color:white"></a></i></button>
-      </div>
+    <div class="col-sm-3 text-center">
+      <a href="https://github.com/aayushjuhu" target="_blank"><button class="btn btn-primary pull-right" style="background-color:black;"
+          data-aos="flip-left" data-aos-duration="1200" data-aos-delay="600"><i class="fa fa-github"
+            style="font-size:60px; color:white"></a></i></button>
+      <a href="mailto:aayushjuhukar02@gmail.com" target="_blank"><button class="btn btn-primary pull-left"
+          style="background-color:black" data-aos="flip-left" data-aos-duration="1200"><i class="fa fa-google"
+            style="font-size:60px;color:white"></a></i></button>
+      <a href="https://www.linkedin.com/in/aayush-juhukar-9294b222a/" target="_blank"><button class="btn btn-primary default"
+          style="background-color:black" data-aos="flip-left" data-aos-duration="1200" data-aos-delay="400"><i
+            class="fa fa-linkedin" style="font-size:60px;color:white"></a></i></button>
+    </div>
   </section>
-  <main id="main">
-    <section id="about" class="about">
-      <div class="container-fluid">
-        <div class="row no-gutters">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-left"></div>
-          <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
-            <div class="content d-flex flex-column justify-content-center" data-aos="fade-right">
-              <h3>About Me</h3>
-              <p>
-                I love to explore latest technologies and have interests in software as well as in web development domains. I like to play with different languages which encourages me to learn and master them.<br><br>Hobbies:Listening music, Reading books
-                <br>Interpersonal Skills: Problem solving, Confident, analytical thinking,Leadership skills
-             </p>
+  <div class="container-fluid">
+
+    <main id="main">
+      <section id="about" class="about">
+        <div class="container">
+          <div class="row no-gutters">
+            <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"
+              data-aos="fade-right"></div>
+            <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
+              <div class="content d-flex flex-column justify-content-center">
+                <h3><span id="head" data-aos="fade-left">About Me</span></h3>
+                <p data-aos="fade-left">
+                  I have a passion for exploring cutting-edge technologies and a keen interest in both software
+                  development and web development. I enjoy experimenting with various programming languages, as it
+                  motivates me to continuously learn and excel in them.<br><br>Hobbies:Listening music, Reading books
+                  <br>Interpersonal Skills: Problem solving, Confident, analytical thinking,Leadership skills
+                </p>
               </div>
             </div>
           </div>
         </div>
 
+  </div>
+  </section>
+  <section id="skills" class="skills section-bg">
+    <div class="container text-center">
+      <div class="section-title">
+        <h2 data-aos="fade-right"><span id="head">Skills</span></h2>
       </div>
-    </section>
-    <section id="skills" class="skills section-bg">
-      <div class="container-fluid">
-        <div class="section-title">
-          <h2 data-aos="fade-right">Skills</h2>
+      <div class="row skills-content" data-aos="fade-up" data-aos-duration="1200">
+        <div class="col-sm-12">
+          <img class="img-rounded" src="assets\img\skills.png" alt="">
         </div>
-        <div class="row skills-content" data-aos="fade-up" data-aos-duration="1200">
-          <div class="col-lg-6">
-            <div class="list-group">
-              <li class="list-group-item">HTML</li>
-              <li class="list-group-item">CSS</li>
-              <li class="list-group-item">JavaScript</li>
-              <li class="list-group-item">Bootstrap</li>
-              <li class="list-group-item">Python</li>
-              <li class="list-group-item">PostgreSQL</li>
-              <li class="list-group-item">MySQL</li>
-              <li class="list-group-item">Django</li>
-              <li class="list-group-item">MongodB</li>
-            </div>
+      </div>
+    </div>
+  </section>
+  <section id="resume" class="resume section-bg">
+    <div class="container">
+      <div class="section-title">
+        <h2 class="text-center" data-aos="fade-up" data-aos-duration="1400"><span id="head">Professional Career</span>
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="resume-title" data-aos="fade-right" data-aos-duration="1200">Objective</h3>
+          <div id="objective" class="resume-item pb-0" data-aos="fade-up" data-aos-duration="1200">
+            <p><em>To serve a progressive organization which allows me to use my skills, putting my critical and
+                analytical thinking to test thereby helping the professional growth of the organization.</em></p>
+            <p>
+            <ul>
+              <li>Juhu, Mumbai-400049</li>
+              <li>8657255064</li>
+              <li>aayushjuhukar02@gmail.com</li>
+            </ul>
+            </p>
           </div>
-      </div>
-        </div>
-    </section>
-    <section id="resume" class="resume section-bg">
-      <div class="container-fluid">
-        <div class="section-title"> 
-          <h2 data-aos="fade-up" data-aos-duration="1400">Professional Career</h2>
-        </div>
-         <div class="row">
-          <div class="col-lg-6">
-            <h3 class="resume-title" data-aos="fade-right" data-aos-duration="1200">Objective</h3>
-            <div id="objective" class="resume-item pb-0" data-aos="fade-up" data-aos-duration="1200">
-              <p><em>To serve a progressive organization which allows me to use my skills, putting my critical and analytical thinking to test thereby helping the professional growth of the organization.</em></p>
-              <p>
-              <ul>
-                <li>Juhu, Mumbai-400049</li>
-                <li>8657255064</li>
-                <li>aayushjuhukar02@gmail.com</li>
-              </ul>
-              </p>
-            </div>
-            <h3 class="resume-title" data-aos="fade-right" data-aos-duration="1200">Education</h3>
-            <div class="resume-item" data-aos="fade-up" data-aos-duration="1200">
-              <h4>B.E Electronics and Computer Science</h4>
-              <h5>Currently pursuing</h5>
-              <p><em>Fr.Conceicao Rodrigues College of Engineering</em></p>
-              <p><em>Mumbai University</em></p>
-              <p>C.G.P.A: 9.39 (till Semester-IV)</p>
-            </div>
-            <div class="resume-item" data-aos="fade-up" data-aos-duration="1200">
-              <h4>HSC</h4>
-              <h5>2022</h5>
-              <p><em>Vidyanidhi Jr. College of Science</em></p>
-              <p><em>Mumbai Divisional Board</em></p>
-              <p>Percentage: 76.46</p>
-            </div>
-          
+          <h3 class="resume-title" data-aos="fade-right" data-aos-duration="1200">Education</h3>
+          <div class="resume-item" data-aos="fade-up" data-aos-duration="1200">
+            <h4>B.E Electronics and Computer Science</h4>
+            <h5>Currently pursuing</h5>
+            <p><em>Fr.Conceicao Rodrigues College of Engineering</em></p>
+            <p><em>Mumbai University</em></p>
+            <p>C.G.P.A: 9.13 (till Semester-V)</p>
+          </div>
+          <div class="resume-item" data-aos="fade-up" data-aos-duration="1200">
+            <h4>HSC</h4>
+            <h5>2022</h5>
+            <p><em>Vidyanidhi Jr. College of Science</em></p>
+            <p><em>Mumbai Divisional Board</em></p>
+            <p>Percentage: 76.46</p>
+          </div>
+
           <div class="resume-item" data-aos="fade-up" data-aos-duration="1200">
             <h4>SSC</h4>
             <h5>2020</h5>
@@ -166,222 +194,197 @@
             <p>Percentage: 82.20</p>
           </div>
         </div>
-          <div class="col-lg-6">
-            <h3 class="resume-title" data-aos="fade-right" data-aos-duration="1200">Experience</h3>
-            <div class="resume-item" data-aos="fade-up" data-aos-duration="1200">
-              <h4>Web Development Intern</h4>
-              <h5>November, 2022 - December, 2022 </h5>
-              <p><em>The Sparks Foundation</em></p>
-            </div>
-            <h3 class="resume-title" data-aos="fade-right" data-aos-duration="1200">Position of Responsibility</h3>
-            <div class="resume-item" data-aos="fade-up" data-aos-duration="1200">
-              <h4>Student Mentor for Second Year Students</h4>
-              <h5>August, 2022 - Present</h5>
-              <p><em>Fr.Conceicao Rodrigues College of Engineering</em></p>
-            </div>
-            <div class="resume-item" data-aos="fade-up" data-aos-duration="1200">
-              <h4>Training and Placement Coordinator</h4>
-              <h5>September, 2022 - Present</h5>
-              <p><em>Fr.Conceicao Rodrigues College of Engineering</em></p>
-            </div>
-            
-            <br>
-            
+        <div class="col-lg-6">
+          <h3 class="resume-title" data-aos="fade-right" data-aos-duration="1200" style="color: #4b7dab;">Experience
+          </h3>
+          <div class="resume-item" data-aos="fade-up" data-aos-duration="1200">
+            <h4>Web Development Intern</h4>
+            <h5>November, 2022 - December, 2022 </h5>
+            <p><em>The Sparks Foundation</em></p>
           </div>
+          <h3 class="resume-title" data-aos="fade-right" data-aos-duration="1200" style="color: #4b7dab;">Publications
+          </h3>
+          <div class="resume-item" data-aos="fade-up" data-aos-duration="1200">
+            <h4>Classifico: Music Genre Prediction System using CNN</h4>
+            <h5>Co-Authors: Yukta Wagh, Kaushik Nakashe, Sahil Bane</h5>
+            <p><em>International Journal for Multidisciplinary Research </em></p>
+            <h4><a href="https://www.ijfmr.com/research-paper.php?id=4124" target="_blank">View Paper</a></h4>
           </div>
+          <h3 class="resume-title" data-aos="fade-right" data-aos-duration="1200">Position of Responsibility</h3>
+          <div class="resume-item" data-aos="fade-up" data-aos-duration="1200">
+            <h4>Student Mentor for Second Year Students</h4>
+            <h5>August, 2022 - June, 2023</h5>
+            <p><em>Fr.Conceicao Rodrigues College of Engineering</em></p>
+          </div>
+          <div class="resume-item" data-aos="fade-up" data-aos-duration="1200">
+            <h4>Training and Placement Coordinator</h4>
+            <h5>September, 2022 - Present</h5>
+            <p><em>Fr.Conceicao Rodrigues College of Engineering</em></p>
+          </div>
+
           <br>
+
+        </div>
+      </div>
+      <br>
+      <div id="projects" class="container text-center">
+        <div class="section-title text-center my-2" data-aos="fade-right" data-aos-duration="1200">
+          <h2><span id="head">Projects</span></h2>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card" id="card">
+              <img class="card-img-top" id="img" src="assets\img\nf.jpg" alt="Card image">
+              <div class="card-body">
+                <p class="card-text my-2">A website which provides nutritional facts and benefits of various fruits,
+                  vegetables, pulses. Frontend is developed using
+                  Angular with Flask at Backend with MongoDB.</p>
+                <div class="text-center">
+                  <a href="https://github.com/aayushjuhu/NutriFacts" target="_blank"><button class="btn btn-primary"
+                      style="background-color:black;margin-top: 18%;"><i class="fa fa-github"
+                        style="font-size:40px; color:white; "></a></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" id="card">
+              <img class="card-img-top" id="img" src="assets\img\pp.png" alt="Card image">
+              <div class="card-body">
+                <p class="card-text my-2">Website developed keeping college placement cell in mind. It is admin side
+                  interface which provides details of all students across all branches. It is developed using Django
+                  with MongoDB</p>
+                <div class="text-center">
+                  <a href="https://github.com/aayushjuhu/NutriFacts" target="_blank"><button class="btn btn-primary"
+                      style="background-color:black;margin-top: 25%;"><i class="fa fa-github"
+                        style="font-size:40px; color:white; "></a></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" id="card">
+              <img class="card-img-top" id="img" src="assets\img\logocopy-removebg-preview.png" alt="Card image">
+              <div class="card-body">
+                <p class="card-text my-2">Developed using HTML, CSS, Bootstrap and JavaScript is a website which
+                  generates
+                  participation and achievement e-certificates which can be downloaded by the user.</p>
+                <div class="text-center">
+                  <a href="https://github.com/aayushjuhu/QuickCertify" target="_blank"><button class="btn btn-primary"
+                      style="background-color:black;margin-top: 18%;"><i class="fa fa-github"
+                        style="font-size:40px; color:white; "></a></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row my-4">
+          <div class="col-sm-4">
+            <div class="card" id="card">
+              <img class="card-img-top" id="img" src="assets\img\anuvaadlogo - Copy.png" alt="Card image">
+              <div class="card-body">
+                <p class="card-text my-2">A translation app which takes input in form of text as well as voice and
+                  outputs the relevant translation.The frontend is designed using PyQT5,
+                  a python library and uses google translate api at the backend.</p>
+                <div class="text-center">
+                  <a href="https://github.com/aayushjuhu/Anuvaad" target="_blank"><button class="btn btn-primary"
+                      style="background-color:black;"><i class="fa fa-github"
+                        style="font-size:40px; color:white; "></a></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" id="card">
+              <img class="card-img-top" id="img" src="assets\img\amigo.jpg" alt="Card image">
+              <div class="card-body">
+                <p class="card-text my-2">Amigo is a virtual voice assistant which can search the internet for
+                  information
+                  and also perform various functions.</p>
+                <div class="text-center">
+                  <a href="https://github.com/aayushjuhu/Amigo" target="_blank"><button class="btn btn-primary"
+                      style="background-color:black;margin-top: 36%;"><i class="fa fa-github"
+                        style="font-size:40px; color:white;"></a></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" id="card">
+              <img class="card-img-top" id="img" src="assets\img\Picture1 - Copy.png" alt="Card image">
+              <div class="card-body">
+                <p class="card-text my-2">An application developed using python which demonstrates Image steganography.
+                </p>
+                <div class="text-center">
+                  <a href="https://github.com/aayushjuhu/Cryptify" target="_blank"><button class="btn btn-primary"
+                      style="background-color:black;margin-top: 38%;"><i class="fa fa-github"
+                        style="font-size:40px; color:white;"></a></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="skills" class="skills section-bg">
+      <div class="container-fluid">
+        <div id="Extra-Curricular" class="section-title text-center">
+          <h2 data-aos="fade-right" data-aos-duration="1400"><span id="head">Extra-Curricular Activities</span></h2>
           <div class="container-fluid">
-            <div id="projects" class="section-title" data-aos="fade-right" data-aos-duration="1200">
-              <h2>Projects</h2>
-            </div>
             <div class="row">
-              <div class="col-sm-3">
-                <div class="card" style="width: 28rem;border: 2px solid rgb(56, 144, 216);border-radius: 4px;" data-aos="zoom-in-up" id="c1"data-aos-duration="1400">
-                  <img class="card-img-top" src="assets/img/logocopy-removebg-preview.png" alt="quickcertify">
-                  <div class="card-body">
-                    <h5 class="card-title"><strong>QuickCertify</strong></h5>
-                    <p class="card-text">Developed using HTML, CSS, Bootstrap and JavaScript is a website which generates participation and achievement e-certificates which can be downloaded by the user.</p>
-                    <div class="text-center">
-                      <a href="https://aayushjuhu.github.io/QuickCertify/"><button class="btn btn-primary" style="background-color:black;"><i class="fa fa-link" style="font-size:40px; color:white; "></a></i></button>
-                    <a href="https://github.com/aayushjuhu/QuickCertify"><button class="btn btn-primary" style="background-color:black;"><i class="fa fa-github" style="font-size:40px; color:white; "></a></i></button>
-                    </div>
-                  </div>
-                </div>
+              <div class="col-sm-6 pull-left">
+                <img src="assets/img/Aayush Juhukar_Stepping into robotics.jpg" class="img-fluid " " data-aos="
+                  flip-left" data-aos-duration="1400">
                 <br><br>
               </div>
-              
-              <div class="col-sm-3">
-                <div class="card" style="width: 28rem;border: 2px solid rgb(56, 144, 216);border-radius: 4px;" data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1400" id="c1">
-                  <img class="card-img-top" src="assets/img/anuvaadlogo - Copy.png" alt="Anuvaad">
-                  <div class="card-body">
-                    <h5 class="card-title"><strong>Anuvaad</strong></h5>
-                    <p class="card-text">A translation app which takes input in form of text as well as voice and
-                      outputs the relevant translation.The frontend is designed using PyQT5, 
-                      a python library and uses google translate api at the backend.
-                    </p>
-                    <div class="text-center">
-                    <a href="https://github.com/aayushjuhu/Anuvaad"><button class="btn btn-primary" style="background-color:black;"><i class="fa fa-github" style="font-size:40px; color:white; "></a></i></button>
-                    </div>
-                  </div>
-                </div>
+
+              <div class="col-sm-6 pull-right">
+                <img src="assets/img/Aayush Juhukar - Synergy 2022 Hackathon Participation.jpg" class="img-fluid "
+                  data-aos="flip-left" data-aos-duration="1400" data-aos-delay="100">
                 <br><br>
               </div>
-              <br><br>
-              <div class="col-sm-3">
-                <div class="card" id="c1" style="width: 28rem;border: 2px solid rgb(56, 144, 216);border-radius: 4px;" data-aos="zoom-in-up" data-aos-duration="1400" data-aos-delay="200">
-                  <img class="card-img-top" src="assets/img/amigo.jpg" alt="amigo">
-                  <div class="card-body">
-                    <h5 class="card-title"><strong>Amigo</strong></h5>
-                    <p class="card-text">Amigo is a virtual voice assistant which can search the internet for information and also perform various functions.</p>
-                    <div class="text-center">
-                    <a href="https://github.com/aayushjuhu/Amigo"><button class="btn btn-primary" style="background-color:black;"><i class="fa fa-github" style="font-size:40px; color:white; "></a></i></button>
-                    </div>
-                  </div>
-                </div>
-                <br><br>
-              </div>
-              <div class="col-sm-3">
-                <div class="card" id="c1" style="width: 28rem;border: 2px solid rgb(56, 144, 216);border-radius: 4px;" data-aos="zoom-in-up" data-aos-duration="1400" data-aos-delay="300">
-                  <img class="card-img-top" src="assets/img/Picture1 - Copy.png" alt="Cryptify">
-                  <div class="card-body">
-                    <h5 class="card-title"><strong>Cryptify</strong></h5>
-                    <p class="card-text">An application developed using python which demonstrates Image steganography.</p>
-                    <div class="text-center">
-                    <a href="https://github.com/aayushjuhu/Cryptify"><button class="btn btn-primary" style="background-color:black;"><i class="fa fa-github" style="font-size:40px; color:white; "></a></i></button>
-                    </div>
-                  </div>
-                </div>
-                <br><br>
-              </div>
-              
             </div>
+
             <div class="row">
-              <div class="col-sm-3">
-                <div class="card" id="c1" style="width: 28rem;border: 2px solid rgb(56, 144, 216);border-radius: 4px;" data-aos="zoom-in-up" data-aos-duration="1400" data-aos-delay="400">
-                  <img class="card-img-top" src="assets/img/mp.jpg" alt="MP3-player">
-                  <div class="card-body">
-                    <h5 class="card-title"><strong>MP3 Music Player</strong></h5>
-                    <p class="card-text">This music player developed using python can play audio files with play,pause,next and prev operations.</p>
-                    <div class="text-center">
-                    <a href="https://github.com/aayushjuhu/MP3-player"><button class="btn btn-primary" style="background-color:black;" ><i class="fa fa-github" style="font-size:40px; color:white; "></a></i></button>
-                    </div>
-                  </div>
-                </div>
+              <div class="col-sm-6 pull-left">
+                <img src="assets/img/Team 12_Page_1.jpg" class="img-fluid " data-aos="flip-left"
+                  data-aos-duration="1400" data-aos-delay="200">
                 <br><br>
               </div>
-                <div class="col-sm-3">
-                  <div class="card" id="c1" style="width: 28rem;border: 2px solid rgb(56, 144, 216);border-radius: 4px;" data-aos="zoom-in-up" data-aos-duration="1400" data-aos-delay="400">
-                    <img class="card-img-top" src="assets/img/nf.jpg" alt="MP3-player">
-                    <div class="card-body">
-                      <h5 class="card-title"><strong>NutriFacts</strong></h5>
-                      <p class="card-text">A website which provides nutritional facts and benefits of various fruits, 		vegetables, pulses in a user-friendly way. Frontend is developed using
-                        Bootstrap with Django and MongoDB at the backend.
-                    </p>
-                      <div class="text-center">
-                      <a href="https://github.com/aayushjuhu/NutriFacts"><button class="btn btn-primary" style="background-color:black;" ><i class="fa fa-github" style="font-size:40px; color:white; "></a></i></button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div class="col-sm-6 pull-right">
+                <img src="assets\img\WebScripters.png" class="img-fluid " data-aos="flip-left" data-aos-duration="1400"
+                  data-aos-delay="300">
               </div>
-              <br><br>
-            </div>
-            
-          </div>
-            
-              <br>
-              <!--<div class="container-fluid text-center" data-aos="fade-up" data-aos-duration="1200">
-                <img src="/assets/img/pbg.jpg" alt="Sociogram" class="img-fluid img-thumbnail rounded-pill mx-auto d-block" style="border: 2px solid #6b96be;">
-
-                <br>
-                <div style="font-family:Oswald;"><p class="hero h2">Sociogram is a community messaging website where people can chat with their friends.</p></div>
-                  <p style="font-size: 28px;font-family:Oswald;"><em>Technologies Used:HTML, CSS, JavaScript, MySQL, JQuery, PHP </em></p>
-                  <a href="https://github.com/aayushjuhu/Sociogram"><button class="btn btn-primary btn" style="background-color:black;" data-aos="fade-up"><i class="fa fa-github" style="font-size:60px; color:white; "></a></i></button>
-
-                </div>
-              </div>
-              <br><br><hr class="hr solid"><br><br>
-              <div class="container-fluid text-center" data-aos="fade-up" data-aos-duration="1200">
-                <img src="/assets/img/anuvaadlogo.png" alt="Anuvaad" style="border: 2px solid #6b96be" class="img-fluid img-thumbnail rounded-pill mx-auto d-block">
-                <div style="font-family:Oswald;"><p class="hero h2">Anuvaad is a translation app which can take input through voice as well as text. Its TTS feature provides pronounciation capability.</p></div>
-                <p style="font-size: 28px;font-family:Oswald;"><em>Technology Used:Python</em></p>
-                <a href="https://github.com/aayushjuhu/Anuvaad"><button class="btn btn-primary btn" style="background-color:black;" data-aos="fade-up"><i class="fa fa-github" style="font-size:60px; color:white"></a></i></button>
-
-              </div>
-              <br><br><hr  class="hr solid"><br><br>
-              <div class="container-fluid text-center" data-aos="fade-up" data-aos-duration="1200">
-                <img src="/assets/img/amigo.jpg" alt="Amigo" style="border: 2px solid #6b96be" class="img-fluid img-thumbnail rounded-pill mx-auto d-block">
-                <div style="font-family:Oswald;"><p class="hero h2">Amigo is a virtual voice assistant who can search the internet for information and can play videos for you with many more features.</p></div>
-                <p style="font-size: 28px;font-family:Oswald;"><em>Technology Used:Python</em></p>
-                <a href="https://github.com/aayushjuhu/Amigo"><button class="btn btn-primary btn" style="background-color:black;" data-aos="fade-up"><i class="fa fa-github" style="font-size:60px; color:white"></a></i></button>
-              </div>
-              <br><br><hr  class="hr solid"><br><br>
-              <br>
-              <div class="container-fluid text-center" data-aos="fade-up" data-aos-duration="1200">
-                <img src="/assets/img/mp.jpg" alt="mp" style="border: 2px solid #6b96be" class="img-fluid img-thumbnail rounded-pill mx-auto d-block" >
-                <div style="font-family:Oswald;"><p class="hero h2">This music player can play audio files with play,pause,next and prev operations.</p></div>
-                <p style="font-size: 28px;font-family:Oswald;"><em>Technology Used:Python</em></p>
-                <a href="https://github.com/aayushjuhu/MP3-player"><button class="btn btn-primary btn text-center" style="background-color:black;" data-aos="fade-up"><i class="fa fa-github" style="font-size:60px; color:white"></a></i></button>
-              </div>
-              <br><br><hr  class="hr solid"><br><br>
-              <div class="container-fluid text-center" data-aos="fade-up" data-aos-duration="1200">
-                <img src="/assets/img/Picture1.png" alt="mp" style="border: 2px solid #6b96be; " class="img-fluid img-thumbnail rounded-pill mx-auto d-block">
-                <div style="font-family:Oswald;"><p class="hero h2">Cryptify is a steganography application which can embed text within image. It contains two factor security</p></div>
-                <p style="font-size: 28px;font-family:Oswald;"><em>Technology Used:Python</em></p>
-                <a href="https://github.com/aayushjuhu/Cryptify"><button class="btn btn-primary btn" style="background-color:black;" data-aos="fade-up"><i class="fa fa-github" style="font-size:60px; color:white"></a></i></button>
-
-              </div>
-            </div> -->
-           
-            <section id="skills" class="skills section-bg">
-              <div class="container-fluid">
-                <div id="Extra-Curricular" class="section-title">
-                  <h2 data-aos="fade-right" data-aos-duration="1400">Extra-Curricular Activities</h2>
-                  <div class="container-fluid">
-                    <div class="row">
-                      <div class="col-sm-6 pull-left">
-                        <img src="assets/img/Aayush Juhukar_Stepping into robotics.jpg" class="img-fluid " " data-aos="flip-left" data-aos-duration="1400">
-                        <br><br>
-                      </div>
-                      
-                      <div class="col-sm-6 pull-right">
-                        <img src="assets/img/Aayush Juhukar - Synergy 2022 Hackathon Participation.jpg" class="img-fluid "  data-aos="flip-left" data-aos-duration="1400" data-aos-delay="100">
-                        <br><br>
-                      </div>
-                    </div>
-                    
-                    <div class="row">
-                      <div class="col-sm-6 pull-left">
-                        <img src="assets/img/Team 12_Page_1.jpg" class="img-fluid " data-aos="flip-left" data-aos-duration="1400" data-aos-delay="200">
-                        <br><br>
-                      </div>
-                      <div class="col-sm-6 pull-right">
-                        <img src="assets/img/WebScripters.png" class="img-fluid " data-aos="flip-left" data-aos-duration="1400" data-aos-delay="300">
-                      </div>
-                    </div>
-                  </div>
-                  
-                </div>
-              </div>
-            <div class="text-center">
-              <a href="assets/img/Aayush Juhukar Resume.pdf" download><button class="btn btn-primary text-center" data-aos="zoom-in" data-aos-delay="200"><i class="fa fa-download" style="font-size: 28px;"> Download Resume</i></button></a>
             </div>
           </div>
+
+        </div>
+      </div>
+      <div class="text-center">
+        <a href="assets/img/Aayush Juhukar Resume.pdf" download><button class="btn btn-primary text-center"
+            data-aos="zoom-in" data-aos-delay="200"><i class="fa fa-download" style="font-size: 28px;"> Download
+              Resume</i></button></a>
+      </div>
+      </div>
     </section>
+    </div>
 
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <br>
-  <footer class="text-center" style="font-family:Oswald;font-size:20px;">Created by Aayush Juhukar</footer>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <br>
+    <footer class="text-center" style="font-family:Oswald;font-size:20px;">Created by Aayush Juhukar</footer>
 </body>
+
+
 </html>
