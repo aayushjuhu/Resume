@@ -1,0 +1,514 @@
+
+body {
+  font-family: "Oswald", sans-serif;
+  color: #5a656e;
+  background: rgb(28, 28, 28);
+  background: linear-gradient(169deg, rgba(28, 28, 28, 1) 39%, rgba(120, 120, 120, 1) 93%);
+
+}
+
+.navbar-nav .active{
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+a {
+  color: #d43076;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #dd5a92;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 9999;
+  background: #4830d4;
+  border: 1px solid white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 24px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #db528c;
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* # Header */
+
+#header {
+  transition: all 0.5s;
+  z-index: 997;
+  transition: all 0.5s;
+  height: 60px;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);
+}
+
+#header .logo h1 {
+  font-size: 26px;
+  margin: 0;
+  padding: 6px 0;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#header .logo h1 a,
+#header .logo h1 a:hover {
+  color: #2c4964;
+  text-decoration: none;
+}
+
+#header .logo img {
+  padding: 0;
+  margin: 0;
+  max-height: 40px;
+}
+
+.scrolled-offset {
+  margin-top: 60px;
+}
+
+
+
+/* # Hero */
+
+#hero {
+  width: 100%;
+    height: 75vh;
+    background: url('https://cdn.pixabay.com/photo/2016/11/23/14/45/coding-1853305_1280.jpg');
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding:  12px; */
+    /* margin: 0%; */
+    overflow: hidden;
+
+
+}
+
+#links {
+  width: 100%;
+  height: 75vh;
+  background-size: cover;
+  padding: 0 15px;
+}
+
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#hero h2 {
+  color: #eee;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+}
+
+#linux {
+  height: 91.4%;
+}
+#tpc{
+  height: 91.4%;
+}
+
+.mobile-only{
+  display: none;
+}
+
+.desktop-only{
+  display: block;
+}
+
+
+
+@media (max-width: 500px) {
+  .mobile-only{
+    display: block
+  }
+  .desktop-only{
+    display: none;
+  }
+  .card{
+    margin-top: 4%;
+    border: 2px solid rgb(105, 188, 255);
+    /* border-color:  #948fff #9400D3 #ffd500 #e2a5ff; */
+  }
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+    color: #ffffff;
+    font-size: 24px;
+  }
+
+  #hero {
+    width: 100%;
+    height: 75vh;
+    background: url('https://cdn.pixabay.com/photo/2016/11/23/14/45/coding-1853305_1280.jpg');
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding:  12px; */
+    /* margin: 0%; */
+    overflow: hidden;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+}
+
+#hero .btn-get-started {
+  font-size: 64px;
+  transition: 0.5s;
+  color: #fff;
+  height: 60px;
+}
+
+#hero .btn-get-started:hover {
+  padding-top: 10px;
+  color: #d43076;
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-size: cover;
+  }
+
+  #hero h1 {
+    font-size: 40px;
+    /* line-height: 40px; */
+    color: rgb(255, 255, 255);
+
+  }
+
+}
+
+
+
+
+
+@media (max-width: 500px){
+  #hero {
+    /* width: 100%;
+    height: 75vh; */
+    background: url('https://cdn.pixabay.com/photo/2020/11/05/08/10/laptop-5714421_1280.jpg');
+    color: rgb(10, 5, 165);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding:  12px; 
+    margin: 0%;
+    overflow: hidden;
+  }
+  .container{
+    overflow: hidden;
+  }
+  
+}
+
+
+/* # Sections */
+
+section {
+  padding: 20px 0;
+}
+
+.section-bg {
+  /* background-color: white; */
+  /* background: rgb(28,28,28); */
+  color: white;
+  font-family: Oswald;
+  background: linear-gradient(169deg, rgba(28, 28, 28, 1) 39%, rgb(77, 77, 77) 93%);
+}
+
+.section-title {
+  padding-bottom: 30px;
+  font-family: Oswald;
+  color: #4e8ac3;
+}
+
+p{
+  text-align: justify;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  position: relative;
+  color: #4e8ac3;
+}
+
+#head {
+  /* padding-bottom: 10px; */
+  border-bottom: 1px solid #1f67db;
+  font-family: Oswald;
+  line-height: 48px;
+}
+
+.navbar-nav .active {
+  color: white;
+  /* border-radius: 5px; */
+}
+
+#spn {
+  border-bottom: 0px solid transparent;
+  line-height: 0px;
+}
+
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+#c1 {
+  transition: transform .2s;
+  border: 2px solid rgb(56, 144, 216);
+  border-radius: 20px;
+}
+
+
+#c1:hover {
+  transform: scale(1.1);
+  
+}
+
+#card {
+  font-family: Oswald;
+  color: rgb(255, 255, 255);
+  font-size: medium;
+  border-radius: 20px;
+  /* background: transparent; */
+  background: linear-gradient(169deg, rgba(28, 28, 28, 1) 39%, rgb(67, 66, 66) 93%);
+  width: 18rem;
+  height: 22rem;
+}
+
+#img {
+  border-radius: 20px 20px 0px 0px;
+  border: 4% solid rgb(130, 255, 249);
+}
+
+
+
+
+
+.card h4 {
+  color: rgb(17, 1, 103);
+}
+
+
+
+/* # About */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+.about .content {
+  padding: 100px 0;
+  color: #fff;
+  font-family: Oswald;
+  font-size: large;
+
+}
+
+.about .content h3 {
+  font-weight: 500;
+  font-size: 34px;
+  color: #4e8ac3;
+  font-family: Oswald;
+}
+
+.about .content p {
+  margin-bottom: 0;
+}
+
+h3 {
+  font-family: Oswald;
+}
+
+.about .content .count-box {
+  padding: 20px 0;
+  width: 100%;
+}
+
+.about .content .count-box i {
+  display: block;
+  font-size: 36px;
+  color: grey;
+  float: left;
+  line-height: 0;
+}
+
+.about .content .count-box span {
+  font-size: 36px;
+  line-height: 20px;
+  display: block;
+  font-weight: 700;
+  color: #2c4964;
+  margin-left: 50px;
+  font-family: "Playfair Display", serif;
+}
+
+.about .content .count-box p {
+  padding: 15px 0 0 0;
+  margin: 0 0 0 50px;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  color: #437099;
+}
+
+.about .content .count-box a {
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+  color: #437099;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  /* transition: ease-in-out 0.3s; */
+}
+
+.about .content .count-box a:hover {
+  color: #6b96be;
+}
+
+.about .image {
+  background: url("../img/1647789618838.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  border-radius: 10% 40% 10% 50%;
+
+  border: 2px solid #6b96be;
+}
+
+@media (max-width: 991px) {
+  .about .image {
+    text-align: center;
+  }
+
+  .about .image img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 667px) {
+  .about .image img {
+    max-width: 100%;
+  }
+}
+
+
+/* # Professional Experience */
+
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #4b7dab;
+  font-family: "Oswald", sans-serif;
+}
+
+.resume {
+  font-family: Oswald;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  color: white;
+  border-left: 2px solid rgb(255, 255, 255);
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #207ed5;
+  margin-bottom: 10px;
+  font-family: Oswald;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  /* background: #e4ebf3; */
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-family: "Oswald", sans-serif;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  color: #fff;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #d43076;
+}
+
+hr.solid {
+  border-top: 3px solid rgb(255, 255, 255);
+}
+
+#skills{
+  width: 100%
+}
+
