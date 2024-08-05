@@ -148,45 +148,33 @@ h6 {
   height: 91.4%;
 }
 
-#hero .btn-get-started {
-  font-size: 64px;
-  transition: 0.5s;
-  color: #fff;
-  height: 60px;
+.mobile-only{
+  display: none;
 }
 
-#hero .btn-get-started:hover {
-  padding-top: 10px;
-  color: #d43076;
+.desktop-only{
+  display: block;
 }
 
-#card:hover{
-  transform: scale(1.05);
-  border: 2px solid;
-  border-radius: 20px;
-}
-@media (min-width: 1024px) {
-  #hero {
-    background-size: cover;
+
+
+@media (max-width: 500px) {
+  .mobile-only{
+    display: block
   }
-
-  #hero h1 {
-    font-size: 40px;
-    /* line-height: 40px; */
-    color: rgb(255, 255, 255);
-
+  .desktop-only{
+    display: none;
   }
-
-}
-
-
-
-@media (max-width: 768px) {
+  .card{
+    margin-top: 4%;
+    border: 2px solid rgb(105, 188, 255);
+    /* border-color:  #948fff #9400D3 #ffd500 #e2a5ff; */
+  }
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
-    color: #fbc603;
-    
+    color: #ffffff;
+    font-size: 24px;
   }
 
   #hero {
@@ -206,25 +194,53 @@ h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+
 }
 
-@media (min-width: 300px){
+#hero .btn-get-started {
+  font-size: 64px;
+  transition: 0.5s;
+  color: #fff;
+  height: 60px;
+}
+
+#hero .btn-get-started:hover {
+  padding-top: 10px;
+  color: #d43076;
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-size: cover;
+  }
+
+  #hero h1 {
+    font-size: 40px;
+    /* line-height: 40px; */
+    color: rgb(255, 255, 255);
+
+  }
+
+}
+
+
+
+
+
+@media (max-width: 500px){
   #hero {
     /* width: 100%;
     height: 75vh; */
-    background: url('https://cdn.pixabay.com/photo/2016/11/23/14/45/coding-1853305_1280.jpg');
+    background: url('https://cdn.pixabay.com/photo/2020/11/05/08/10/laptop-5714421_1280.jpg');
     color: rgb(10, 5, 165);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     padding:  12px; 
     margin: 0%;
     overflow: hidden;
   }
   .container{
     overflow: hidden;
-  }
-  #card{
-    margin-top: 4%;
   }
   
 }
@@ -291,6 +307,7 @@ p{
   border-radius: 20px;
 }
 
+
 #c1:hover {
   transform: scale(1.1);
   
@@ -303,7 +320,6 @@ p{
   border-radius: 20px;
   /* background: transparent; */
   background: linear-gradient(169deg, rgba(28, 28, 28, 1) 39%, rgb(67, 66, 66) 93%);
-  border: 2px solid rgb(130, 255, 249);
   width: 18rem;
   height: 22rem;
 }
